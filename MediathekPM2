@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T09:24:08.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="kCRdw5xF-iDvirKGlrst" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-30T09:28:10.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nARzf4joxhv2BP18jBUE" version="24.3.1" type="github">
   <diagram name="Page-1" id="hVhvupRe8WQqos22aWqC">
-    <mxGraphModel dx="2219" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="3143" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,9 +87,9 @@
         <mxCell id="08BZnFV675ZMHWplcDCu-29" value="+ PCVideospiel(String, String, String)&lt;div&gt;+ getPreisNachTagen(int): int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="08BZnFV675ZMHWplcDCu-28">
           <mxGeometry y="26" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="08BZnFV675ZMHWplcDCu-35" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.301;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="08BZnFV675ZMHWplcDCu-23">
+        <mxCell id="08BZnFV675ZMHWplcDCu-35" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.312;entryY=1.048;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.004;exitY=0.325;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="08BZnFV675ZMHWplcDCu-29" target="08BZnFV675ZMHWplcDCu-23">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1080" y="1000" as="sourcePoint" />
+            <mxPoint x="1100" y="1020" as="sourcePoint" />
             <mxPoint x="1230" y="920" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1110" y="1000" />
