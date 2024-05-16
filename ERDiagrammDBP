@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T07:10:54.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="IIGsLTPTA7Um4w1tGrrp" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T07:31:13.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="rma7OkDNLen3G1gwgZFw" version="24.4.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1195" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -370,7 +370,7 @@
         <mxCell id="9A4BiXjOT6iv4WyseEVR-8" value="Darstellung" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="597.5" y="690" width="71" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9A4BiXjOT6iv4WyseEVR-9" value="Personnenanzahl" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="9A4BiXjOT6iv4WyseEVR-9" value="Personenanzahl" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="719" y="750" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9A4BiXjOT6iv4WyseEVR-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tRXFJ1YaPokl_uJpnFa7-9" target="9A4BiXjOT6iv4WyseEVR-6" edge="1">
