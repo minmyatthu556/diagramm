@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-16T08:26:02.044Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="pBTyE4LN_AEQDbfIUU1N" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-16T08:39:25.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="b47LKWFGbEghMnnsioSi" version="24.4.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1366" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -46,7 +46,7 @@
         <mxCell id="4iuh3zrAZqDO1K-IALBD-21" value="+ Kinosaal(String, int, int)&lt;br&gt;&lt;div&gt;+ getName(): String&lt;/div&gt;&lt;div&gt;+ getAnzahlReihen(): int&lt;/div&gt;&lt;div&gt;+ getAnzahlSitzplaetzeProReihe(): int&lt;/div&gt;&lt;div&gt;+ getPlaetze(): List&amp;lt;Platz&amp;gt;&lt;/div&gt;&lt;div&gt;+ hatPlatz(): boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4iuh3zrAZqDO1K-IALBD-18" vertex="1">
           <mxGeometry y="88" width="210" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="4iuh3zrAZqDO1K-IALBD-22" value="Platz" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="4iuh3zrAZqDO1K-IALBD-22" value="Platz" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="362.5" y="100" width="135" height="150" as="geometry">
             <mxRectangle x="400" y="210" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -107,7 +107,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4iuh3zrAZqDO1K-IALBD-37" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4iuh3zrAZqDO1K-IALBD-4" target="4iuh3zrAZqDO1K-IALBD-55" edge="1">
+        <mxCell id="4iuh3zrAZqDO1K-IALBD-37" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4iuh3zrAZqDO1K-IALBD-4" target="4iuh3zrAZqDO1K-IALBD-56" edge="1">
           <mxGeometry x="-0.9612" width="160" relative="1" as="geometry">
             <mxPoint x="530" y="330" as="sourcePoint" />
             <mxPoint x="680" y="134.0000000000001" as="targetPoint" />
@@ -115,8 +115,7 @@
               <mxPoint x="370" y="1340" />
               <mxPoint x="800" y="1340" />
               <mxPoint x="800" y="840" />
-              <mxPoint x="800" y="50" />
-              <mxPoint x="205" y="50" />
+              <mxPoint x="800" y="-20" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -204,8 +203,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4iuh3zrAZqDO1K-IALBD-48" value="Uhrzeit" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="540" y="100" width="190" height="160" as="geometry">
+        <mxCell id="4iuh3zrAZqDO1K-IALBD-48" value="Uhrzeit" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="540" y="90" width="190" height="160" as="geometry">
             <mxRectangle x="540" y="100" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -249,27 +248,55 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4iuh3zrAZqDO1K-IALBD-55" value="Datum (n)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="90" y="100" width="230" height="190" as="geometry">
+        <mxCell id="4iuh3zrAZqDO1K-IALBD-55" value="Datum" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="-88" width="230" height="338" as="geometry">
             <mxRectangle x="60" y="210" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4iuh3zrAZqDO1K-IALBD-56" value="- _tag: Datum&lt;div&gt;- _vorstellungen(): List&amp;lt;Vorstellung&amp;gt;&lt;/div&gt;&lt;div&gt;- _vergleichNachAnfangszeit:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Comparator&amp;lt;Vorstellung&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4iuh3zrAZqDO1K-IALBD-55" vertex="1">
-          <mxGeometry y="26" width="230" height="74" as="geometry" />
+        <mxCell id="4iuh3zrAZqDO1K-IALBD-56" value="- MILLISECONDS_PER_DAY: long&lt;div&gt;- CALENDAR: Calendar&lt;br&gt;&lt;div&gt;- _jahr: int&lt;/div&gt;&lt;div&gt;- _monat: int&lt;/div&gt;&lt;div&gt;- _tag: int&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4iuh3zrAZqDO1K-IALBD-55" vertex="1">
+          <mxGeometry y="26" width="230" height="84" as="geometry" />
         </mxCell>
         <mxCell id="4iuh3zrAZqDO1K-IALBD-57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="4iuh3zrAZqDO1K-IALBD-55" vertex="1">
-          <mxGeometry y="100" width="230" height="8" as="geometry" />
+          <mxGeometry y="110" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="4iuh3zrAZqDO1K-IALBD-58" value="+ Tagesplan(Datum)&lt;div&gt;+ getDatum(): Datum&lt;/div&gt;&lt;div&gt;+ fuegeVorstellungHinzu(Vorstellung): void&lt;/div&gt;&lt;div&gt;+ getVorstellungen(): List&amp;lt;Vorstellung&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4iuh3zrAZqDO1K-IALBD-55" vertex="1">
-          <mxGeometry y="108" width="230" height="82" as="geometry" />
+        <mxCell id="4iuh3zrAZqDO1K-IALBD-58" value="+ Datum(int, int, int)&lt;div&gt;+ get(int, int): Datum&lt;/div&gt;&lt;div&gt;+ heute(): Datum&lt;/div&gt;&lt;div&gt;+ istGueltig(int, int, int): boolean&lt;/div&gt;&lt;div&gt;+ getJahr(): int&lt;/div&gt;&lt;div&gt;+ getMonat(): int&lt;/div&gt;&lt;div&gt;+ getTag(): int&lt;/div&gt;&lt;div&gt;+ minus(int): Datum&lt;/div&gt;&lt;div&gt;+ pluts(int): Datum&lt;/div&gt;&lt;div&gt;+ vorherigerTag(): Datum&lt;/div&gt;&lt;div&gt;+ naechsterTag(): Datum&lt;/div&gt;&lt;div&gt;+ tageSeit(Datum): int&lt;/div&gt;&lt;div&gt;+ inMillisekunden(): long&lt;/div&gt;&lt;div&gt;+ getFormatiertenString(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4iuh3zrAZqDO1K-IALBD-55" vertex="1">
+          <mxGeometry y="118" width="230" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="3Wl5qvV5KjrjYKabuC5U-5" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;i style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;/div&gt;FSK" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="3Wl5qvV5KjrjYKabuC5U-5" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;i style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;/div&gt;FSK" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="520" y="1150" width="160" height="120" as="geometry">
             <mxRectangle x="480" y="585" width="130" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Wl5qvV5KjrjYKabuC5U-8" value="- FSK0&lt;div&gt;- FSK6&lt;/div&gt;&lt;div&gt;- FSK12&lt;/div&gt;&lt;div&gt;- FSK16&lt;/div&gt;&lt;div&gt;- FSK18&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3Wl5qvV5KjrjYKabuC5U-5" vertex="1">
           <mxGeometry y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MCHB_ZsTW0Z2eewXql0r-0" value="Geldbetrag" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="-240" width="210" height="190" as="geometry">
+            <mxRectangle x="540" y="100" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCHB_ZsTW0Z2eewXql0r-1" value="- _euroAnteil: int&lt;div&gt;- _centAnteil: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MCHB_ZsTW0Z2eewXql0r-0">
+          <mxGeometry y="26" width="210" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="MCHB_ZsTW0Z2eewXql0r-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MCHB_ZsTW0Z2eewXql0r-0">
+          <mxGeometry y="70" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MCHB_ZsTW0Z2eewXql0r-3" value="+ Geldbetrag(int)&lt;div&gt;+ get(int): Geldbetrag&lt;/div&gt;&lt;div&gt;+ getEuroAnteil(): int&lt;/div&gt;&lt;div&gt;+ getCentAnteil(): int&lt;/div&gt;&lt;div&gt;+ getFormatiertenString(): String&lt;/div&gt;&lt;div&gt;+ getFormatiertenCentAnteil(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MCHB_ZsTW0Z2eewXql0r-0">
+          <mxGeometry y="78" width="210" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="MCHB_ZsTW0Z2eewXql0r-4" value="DatumAuswaehlWerkzeug" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="90" width="230" height="230" as="geometry">
+            <mxRectangle x="540" y="100" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCHB_ZsTW0Z2eewXql0r-5" value="- _ausgewaehltesDatum: Datum&lt;div&gt;- _hauptPanel: Pane&lt;/div&gt;&lt;div&gt;- _weiterButton: Button&lt;/div&gt;&lt;div&gt;- _zurueckButton: Button&lt;/div&gt;&lt;div&gt;- _datumLabel: Label&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MCHB_ZsTW0Z2eewXql0r-4">
+          <mxGeometry y="26" width="230" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="MCHB_ZsTW0Z2eewXql0r-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MCHB_ZsTW0Z2eewXql0r-4">
+          <mxGeometry y="110" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MCHB_ZsTW0Z2eewXql0r-7" value="+ DatumAuswaehlWerkzeug()&lt;div&gt;+ erstellePanel(String): Pane&lt;/div&gt;&lt;div&gt;+ zurueckButtonWurdeGedrueckt(): void&lt;/div&gt;&lt;div&gt;+ weiterButtonWurdeGedrueckt(): void&lt;/div&gt;&lt;div&gt;+ getUIPane(): Pane&lt;/div&gt;&lt;div&gt;+ getSelektiertesDatum(): Datum&lt;/div&gt;&lt;div&gt;+ registriereUIAktionen(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MCHB_ZsTW0Z2eewXql0r-4">
+          <mxGeometry y="118" width="230" height="112" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
